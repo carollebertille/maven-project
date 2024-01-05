@@ -40,7 +40,7 @@ pipeline {
                     script {
                         // Define the content of sonar-project.properties
                         def sonarProjectPropertiesContent = """
-                            sonar.host.url=https://sonarqube.ektechsoftwaresolution.com/
+                            sonar.host.url=http://54.164.161.118:9000
                             sonar.projectKey=project-sonar2
                             sonar.projectName=project-sonar2
                             sonar.projectVersion=1.0
