@@ -16,7 +16,7 @@ pipeline {
                         extensions: [[$class: 'LocalBranch']],
                         submoduleCfg: [],
                         userRemoteConfigs: [[
-                            url: 'https://github.com/carollebertille/pipelines.git',
+                            url: 'https://github.com/carollebertille/maven-project.git',
                         ]]
                     ])
                 }
