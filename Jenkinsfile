@@ -4,7 +4,7 @@ pipeline {
         string (name: 'BRANCH_NAME', defaultValue: 'dev', description: '')
         string (name: 'APP_NAME', defaultValue: 'maven-project-02', description: '')
     }
-    fghjkl;
+
     stages {
         stage ('Checkout') {
             steps {
