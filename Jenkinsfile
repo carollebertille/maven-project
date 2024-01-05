@@ -16,8 +16,7 @@ pipeline {
                         extensions: [[$class: 'LocalBranch']],
                         submoduleCfg: [],
                         userRemoteConfigs: [[
-                            url: 'https://github.com/devopstia/pipelines.git',
-                            credentialsId: 'tia-github-auth'
+                            url: 'https://github.com/carollebertille/pipelines.git',
                         ]]
                     ])
                 }
